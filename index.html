@@ -22,14 +22,14 @@
 
   <div class="container mt-3">
 
-    <div class="row gridder-container g-3 position-relative">
-      <div class="col col-sm-6 col-md-3 gridder-item">
+    <div class="row gridder-container g-3 position-relative" id='selector'>
+      <div class="col-12 col-sm-6 col-md-3 gridder-item">
         <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
           aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
 
         <div class="position-absolute start-0">
 
-          <div class="collapse" id="multiCollapseExample1">
+          <div class="collapse show" id="multiCollapseExample1" data-bs-parent="#selector">
             <div class="card card-body">
               1 Some placeholder content for the first collapse component of this multi-collapse example. This panel is
               hidden
@@ -39,11 +39,11 @@
         </div>
       </div>
 
-      <div class="col col-sm-6 col-md-3 gridder-item">
+      <div class="col-12 col-sm-6 col-md-3 gridder-item">
         <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
           aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
         <div class="position-absolute start-0">
-          <div class="collapse" id="multiCollapseExample2">
+          <div class="collapse" id="multiCollapseExample2" data-bs-parent="#selector">
             <div class="card card-body">
               2 Some placeholder content for the first collapse component of this multi-collapse example. This panel is
               hidden
@@ -54,11 +54,11 @@
         </div>
       </div>
 
-      <div class="col col-sm-6 col-md-3 gridder-item">
+      <div class="col-12 col-sm-6 col-md-3 gridder-item">
         <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
           aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
         <div class="position-absolute start-0">
-          <div class="collapse" id="multiCollapseExample3">
+          <div class="collapse" id="multiCollapseExample3" data-bs-parent="#selector">
             <div class="card card-body">
               3 Some placeholder content for the first collapse component of this multi-collapse example. This panel is
               hidden
@@ -68,11 +68,11 @@
 
         </div>
       </div>
-      <div class="col col-sm-6 col-md-3 gridder-item">
+      <div class="col-12 col-sm-6 col-md-3 gridder-item">
         <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
           aria-expanded="false" aria-controls="multiCollapseExample">Toggle first element</a>
         <div class="position-absolute start-0">
-          <div class="collapse" id="multiCollapseExample4">
+          <div class="collapse" id="multiCollapseExample4" data-bs-parent="#selector">
             <div class="card card-body">
               4 Some placeholder content for the first collapse component of this multi-collapse example. This panel is
               hidden
@@ -81,37 +81,6 @@
           </div>
 
         </div>
-      </div>
-
-      <div class="col col-sm-6 col-md-3 gridder-item">
-        <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
-          aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-
-        <div class="position-absolute start-0">
-          <div class="collapse" id="multiCollapseExample5">
-            <div class="card card-body">
-              5 Some placeholder content for the first collapse component of this multi-collapse example. This panel is
-              hidden
-              by default but revealed when the user activates the relevant trigger.
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="col col-sm-6 col-md-3 gridder-item">
-        <a class="btn btn-primary w-100" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
-          aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-        <div class="position-absolute start-0">
-          <div class="collapse" id="multiCollapseExample6">
-            <div class="card card-body">
-              6 Some placeholder content for the first collapse component of this multi-collapse example. This panel is
-              hidden
-              by default but revealed when the user activates the relevant trigger.
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
